@@ -1,0 +1,1 @@
+export const navbarCopys = ['Portfolio', 'Contáctame'];

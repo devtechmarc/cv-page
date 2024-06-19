@@ -1,7 +1,7 @@
-import { HomePage } from "./pages/HomePage"
+import { CvRouter } from "./Router/CvRouter"
 
 export const CvApp = () => {
   return (
-    <HomePage/>
+    <CvRouter/>
   )
 }
