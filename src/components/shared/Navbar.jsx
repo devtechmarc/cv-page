@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Logo } from './Logo';
 import { Button } from "./Button";
 import { navbarCopys } from "../../copys/navbarCopys";
 import { iconsRoute } from "../../constants";
+import { ButtonContactme } from "../ButtonContactme";
 
 export const Navbar = () => {
-  const location = useLocation();
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
  
@@ -42,12 +42,10 @@ export const Navbar = () => {
           <Logo className="ms-4"></Logo>
         </div>
         <div className="col-span-2 md:gap-x-8 lg:gap-x-0 flex justify-evenly items-center">
-          <Link className={`text-2xl underline-purple`} href={navbarCopys[0]}>{navbarCopys[0]}</Link>
+          <a className={`text-2xl underline-purple`} href={'#portfolio'}>{navbarCopys[0]}</a>
         </div>
         <div className="col-span-2 lg:col-span-1 flex items-center justify-center">
-          <Link href={navbarCopys[1]}>
-            {navbarCopys[1]}
-          </Link>
+          <ButtonContactme/>
         </div>
       </div>
     </nav>
