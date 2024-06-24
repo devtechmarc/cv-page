@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily : {
+        garet: ['Garet', 'Montserrat']
+      },
       screens: {
         "xs": "300px"
       },

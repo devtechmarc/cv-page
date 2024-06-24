@@ -4,9 +4,9 @@ import { Text } from "./shared/Text"
 
 export const TechnologiesGroup = ({technologies = []}) => {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col gap-5">
         <div className="flex flex-row items-center gap-3">
-            <Button className="!p-2 !pe-1 !rounded-xl" icon={'programs'}/>
+            <Button className="!p-2 !pe-1 !rounded-xl cursor-auto" icon={'tecnologias'} hoverEffect={false}/>
             <Text className='font-bold text-2xl'>Tecnologías</Text>
         </div>
         <div className="flex flex-row gap-5">
