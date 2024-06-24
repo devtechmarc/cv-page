@@ -1,8 +1,11 @@
-import React from 'react';
+import { Navigate, useNavigate } from "react-router-dom";
 
-const Card = ({ imageUrl, title, subtitle }) => {
+export const Card = ({ imageUrl, title, subtitle, id }) => {
+
+  const navigate = useNavigate();
+
   return (
-    <div className="max-w-sm mx-auto bg-white border border-gray-300 rounded-lg p-4 hover:shadow-lg transition-shadow group">
+    <div className="max-w-sm mx-auto bg-white border border-gray-300 rounded-lg p-4 hover:shadow-lg transition-shadow group cursor-pointer" id="portfolio" onClick={() => navigate(`/projects/${id}`)}>
       <div className="relative overflow-hidden rounded-lg bg-purple-100">
         <img src={imageUrl} alt="Card Image" className="w-full" />
       </div>
@@ -16,5 +19,3 @@ const Card = ({ imageUrl, title, subtitle }) => {
     </div>
   );
 };
-
-export default Card;

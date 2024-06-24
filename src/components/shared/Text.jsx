@@ -1,6 +1,6 @@
 export const Text = ({className, children}) => {
   return (
-    <p className={`whitespace-pre-line ${className}`}>
+    <p className={`whitespace-pre-line text-balance ${className}`}>
         {children}
     </p>
   )
