@@ -1,6 +1,6 @@
 import { Timeline } from "../components/Timeline"
 import { Breaker } from "../components/shared/Breaker"
-import { HomeSubtitle, HomeSubtitle2, HomeSubtitle3, laboralExperience, studies } from "../copys/homeCopys"
+import { homeSubtitle, homeSubtitle2, homeSubtitle3, laboralExperience, studies } from "../copys/homeCopys"
 import { CvLayout } from "../layouts/CvLayout"
 import { HeroSection } from "../sections/HeroSection"
 import { ProjectsSection } from "../sections/ProjectsSection"
@@ -27,15 +27,15 @@ export const HomePage = () => {
       <div className="w-full flex py-14 gap-7 flex-col">
         <HeroSection/>
         
-        <Breaker>{HomeSubtitle}</Breaker>
+        <Breaker>{homeSubtitle}</Breaker>
           
         <Timeline events={laboralExperience}/>
         
-        <Breaker>{HomeSubtitle2}</Breaker>
+        <Breaker>{homeSubtitle2}</Breaker>
          
         <Timeline events={studies}/>
         
-        <Breaker>{HomeSubtitle3}</Breaker>
+        <Breaker>{homeSubtitle3}</Breaker>
 
         <ProjectsSection/>
 

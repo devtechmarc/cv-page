@@ -1,5 +1,6 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import { Text } from "./shared/Text";
+import Heading from "./shared/Heading";
 
 export const Card = ({ imageUrl, title, subtitle, id }) => {
 
@@ -11,10 +12,10 @@ export const Card = ({ imageUrl, title, subtitle, id }) => {
         <img src={imageUrl} alt="Card Image" className="w-full" />
       </div>
       <div className="mt-4 text-center">
-        <h2 className="text-xl font-bold mb-2 relative inline-block">
+        <Heading variant="h2" className="!text-xl font-bold mb-2 relative inline-block">
           {title}
           <span className="block h-0.5 bg-black absolute bottom-0 left-1/2 w-0 group-hover:w-full transition-all duration-300 transform -translate-x-1/2"></span>
-        </h2>
+        </Heading>
         <Text className="text-gray-600">{subtitle}</Text>
       </div>
     </div>

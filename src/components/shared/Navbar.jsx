@@ -32,7 +32,7 @@ export const Navbar = () => {
       <div className="w-full flex flex-row md:hidden items-center justify-between">
         <Logo className="ms-4"></Logo>
         <label htmlFor="drawer-toggle" className="cursor-pointer" onClick={() => setSidebarOpen(prev => !prev)}>
-          <img className="me-10" src={`${iconsRoute}menu-icon.svg`} alt="Menu" width={30} height={30}/>
+          <img className="me-10 text-white" src={`${iconsRoute}menu-icon.svg`} alt="Menu" width={30} height={30}/>
         </label>
         {/* Sidebar */}
         <div className={` ${sidebarOpen ? "fixed" : "hidden"} top-0 left-0 w-full h-full bg-black opacity-0 z-40`} onClick={() => handleSidebarOpen(!sidebarOpen)}/>

@@ -4,7 +4,7 @@ import { sharedImgRoute } from "../constants"
 
 export const HeroSection = () => {
   return (
-    <section className={`w-full flex flex-col md:flex-row gap-8 lg:gap-0 container m-auto`}>
+    <section className={`w-full flex flex-col md:flex-row gap-8 lg:gap-0 container m-auto py-20`}>
         <div className="w-full md:w-2/5">
             <FrontImage imageUrl={sharedImgRoute.concat('Marc.png')}/>
         </div>
