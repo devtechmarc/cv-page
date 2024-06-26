@@ -9,7 +9,7 @@ export const TechnologiesGroup = ({technologies = []}) => {
             <Button className="!p-2 !pe-1 !rounded-xl cursor-auto" icon={'tecnologias'} hoverEffect={false}/>
             <Text className='font-bold text-2xl'>Tecnologías</Text>
         </div>
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row justify-center flex-wrap gap-5">
             {
                 technologies.map(tech => (
                     <Technology key={tech} title={tech} />

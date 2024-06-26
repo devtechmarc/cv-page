@@ -26,12 +26,12 @@ export const ProjectPage = () => {
               <img src={project.imgFrontPage} alt={`Imagen de ${project.title}` } className="w-full 2xl:shadow-lg rounded-xl" />
             </figure>
             <div className="w-full m-auto container flex flex-col gap-10 my-10">
-              <section className="w-full flex flex-col">
-                <div className="w-full flex flex-col justify-center">
+              <section className="w-full flex flex-col gap-y-10">
+                <div className="w-full flex flex-col justify-center gap-y-2">
                   <Heading variant="h1" className="text-center">{project.title}</Heading>
                   <Heading variant="h2" className="text-center">{project.subtitle}</Heading>
                 </div>
-                <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-between">
+                <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center md:justify-between gap-y-14">
                   <TechnologiesGroup technologies={project.technologies} />
                   <a href={project.url} target="_blank" rel="noopener">
                     <Button className="h-fit" icon={'internet'}>Ir a la web</Button>

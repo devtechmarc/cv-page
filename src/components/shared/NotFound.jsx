@@ -12,7 +12,7 @@ export const NotFound = ({title, description, btnTitle, btnIcon}) => {
   }
 
   return (
-    <section className="w-full container m-auto flex flex-col my-20">
+    <section className="w-full container m-auto flex flex-col my-20 gap-y-5 items-center text-center">
         <Heading variant="h1" className='!text-2xl md:!text-3xl lg:!text-4xl'>{title}</Heading>
         <Text>{description}</Text>
         <Button className="w-fit text-center" icon={btnIcon} onClickAction={handleNavigation}>{btnTitle}</Button>
