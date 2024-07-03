@@ -1,5 +1,5 @@
 import { homeDescription, homeTitle, technologies } from "../../copys/homeCopys"
-import { Technology } from "../Technology"
+import { Hobby } from "../Hobby"
 import Heading from "../shared/Heading"
 import { Text } from "../shared/Text"
 import parse from 'html-react-parser'
@@ -12,7 +12,7 @@ export const Presentation = () => {
         <div className="w-full flex flex-row justify-center gap-x-4">
             {
                 technologies.map(tech => (
-                    <Technology title={tech} key={tech}/>
+                    <Hobby title={tech} key={tech}/>
                 ))
             }
         </div>

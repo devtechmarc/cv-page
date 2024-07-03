@@ -1,4 +1,4 @@
-import { Technology } from "./Technology"
+import { Hobby } from "./Hobby"
 import { Button } from "./shared/Button"
 import { Text } from "./shared/Text"
 
@@ -12,7 +12,7 @@ export const TechnologiesGroup = ({technologies = []}) => {
         <div className="flex flex-row justify-center flex-wrap gap-5">
             {
                 technologies.map(tech => (
-                    <Technology key={tech} title={tech} />
+                    <Hobby key={tech} title={tech} />
                 ))
             }
         </div>

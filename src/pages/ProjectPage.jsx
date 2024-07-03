@@ -7,6 +7,7 @@ import { Button } from "../components/shared/Button";
 import { NotFound } from "../components/shared/NotFound";
 import { Text } from "../components/shared/Text";
 import Heading from "../components/shared/Heading";
+import Seo from "../components/shared/Seo";
 
 export const ProjectPage = () => {
   const { projectId } = useParams();
@@ -21,7 +22,9 @@ export const ProjectPage = () => {
   return (
     <CvLayout>
       {project ? (
-          <main className="w-full flex flex-col 2xl:container 2xl:m-auto 2xl:mt-10" >
+      <>
+        <Seo title={'bb'} description={'bb'} image={'bb'} keywords={'bb'} url={'bb'} />
+        <main className="w-full flex flex-col 2xl:container 2xl:m-auto 2xl:mt-10" >
             <figure className="w-full">
               <img src={project.imgFrontPage} alt={`Imagen de ${project.title}` } className="w-full 2xl:shadow-lg rounded-xl" />
             </figure>
@@ -46,8 +49,12 @@ export const ProjectPage = () => {
 
             </div>
         </main>
+      </>
       ) : (
-        <NotFound btnTitle={'Más proyectos'} title={'Proyecto no encontrado'} description={'El proyecto que buscas no existe o no se encuentra disponible. ¿Te gustaría ver otros? ¡Pincha abajo!'} />
+        <>
+          <Seo title={'Proyecto no encontrado | Marc Fernández'} description={'El proyecto que buscas no existe o no se encuentra disponible. ¿Te gustaría ver otros? ¡Pincha abajo!'} image={'bb'} keywords={'proyecto'} url={'bb'} />
+          <NotFound btnTitle={'Más proyectos'} title={'Proyecto no encontrado'} description={'El proyecto que buscas no existe o no se encuentra disponible. ¿Te gustaría ver otros? ¡Pincha abajo!'} />
+        </>
       )}
     </CvLayout>
   );

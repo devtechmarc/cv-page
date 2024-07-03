@@ -8,4 +8,4 @@ export * from './shared/Text';
 export * from './ButtonContactme';
 export * from './Card';
 export * from './FrontImage';
-export * from './Technology';
+export * from './Hobby';

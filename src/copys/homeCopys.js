@@ -3,6 +3,7 @@ export const homeDescription = 'Amante de la <strong>programación y el deporte
 export const homeSubtitle = '{ Mi experiencia laboral }';
 export const homeSubtitle2 = '{ Mis estudios }';
 export const homeSubtitle3 = '{ Echa un vistazo a mis proyectos }';
+export const homeSubtitle4 = '{ Mis aptitudes }';
 
 export const technologies = ['nextjs', 'react', 'js']
 
