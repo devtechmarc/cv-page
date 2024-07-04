@@ -9,7 +9,7 @@ export const Card = ({ imageUrl, title, subtitle, id }) => {
   return (
     <div className="max-w-sm mx-auto bg-white border border-gray-300 rounded-lg p-4 hover:shadow-lg transition-shadow group cursor-pointer" onClick={() => navigate(`/projects/${id}`)}>
       <div className="relative overflow-hidden rounded-lg">
-        <img src={imageUrl} alt="Card Image" className="w-full" />
+        <img src={imageUrl} alt="Card Image" className="w-full" loading="lazy" />
       </div>
       <div className="mt-4 text-center">
         <Heading variant="h2" className="!text-xl font-bold mb-2 relative inline-block">

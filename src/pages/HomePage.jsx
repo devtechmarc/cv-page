@@ -26,7 +26,7 @@ export const HomePage = () => {
 
   return (
     <CvLayout>
-      <Seo title={'aa'} description={'aa'} image={'aa'} keywords={'aa'} url={'aa'} />
+      <Seo title={'Marc Fernández'} description={'Amante de la programación y el deporte, siempre he estado metido detrás del muro trabajando de Backend developer con Java. Ahora, directo a full stack. Mis 6 años de experiencia me han preparado para adaptarme a las situaciones y peculiaridades de cada proyecto, así como a tirar del hilo en busca de la mejor solución. En cada uno de mis proyectos me he dedicado al desarrollo de evolutivos y correctivos. Así como de hablar con el cliente sobre la opción más viable acorde a lo que necesitaba en cada momento.'} image={'todo'} keywords={'programación, full stack, developer, backend developer, experiencia, proyectos'} url={'todo'} />
       <div className="w-full flex py-14 gap-7 flex-col">
         <HeroSection/>
         
@@ -50,10 +50,11 @@ export const HomePage = () => {
         <ul>
           <li>PASAR LAS IMG A WEBP</li>
           <li>TERMINAR LOS TAGS SEO (CON EL COMPONENTE SEO EN LAS PAGES.JSX)</li>
-          <li>METER FOTO EN LA SECCION DE PROYECTO NO ENCONTRADO</li>
           <li>METER ANIMACIONES</li>
           <li>BOTON DE DESCARGAR EL CV</li>
           <li>VER SI METER LAS FOTOS EN CLOUDINARY</li>
+          <li>BUSCAR EN EL PROYECTO LA PALABRA TODO PARA REVISAR LO QUE QUEDA POR HACER</li>
+          <li>revisar los metatags de https://github.com/alexcanDvlpr/alexcantongarcia/blob/main/components/AlexCantonHead.js</li>
         </ul>
 
       </div>

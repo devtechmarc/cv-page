@@ -23,7 +23,7 @@ export const ProjectPage = () => {
     <CvLayout>
       {project ? (
       <>
-        <Seo title={'bb'} description={'bb'} image={'bb'} keywords={'bb'} url={'bb'} />
+        <Seo title={project.title.concat(' | Marc Fernández')} description={project.description} image={'TODO: URL DE MI DOMINIO + LA FOTO DEL PROYECTO'} keywords={'proyecto, '.concat(project.title)} url={project.url} />
         <main className="w-full flex flex-col 2xl:container 2xl:m-auto 2xl:mt-10" >
             <figure className="w-full">
               <img src={project.imgFrontPage} alt={`Imagen de ${project.title}` } className="w-full 2xl:shadow-lg rounded-xl" />
@@ -52,7 +52,7 @@ export const ProjectPage = () => {
       </>
       ) : (
         <>
-          <Seo title={'Proyecto no encontrado | Marc Fernández'} description={'El proyecto que buscas no existe o no se encuentra disponible. ¿Te gustaría ver otros? ¡Pincha abajo!'} image={'bb'} keywords={'proyecto'} url={'bb'} />
+          <Seo wantSeo={false} title={'Proyecto no encontrado | Marc Fernández'} description={'El proyecto que buscas no existe o no se encuentra disponible. ¿Te gustaría ver otros? ¡Pincha abajo!'} />
           <NotFound btnTitle={'Más proyectos'} title={'Proyecto no encontrado'} description={'El proyecto que buscas no existe o no se encuentra disponible. ¿Te gustaría ver otros? ¡Pincha abajo!'} />
         </>
       )}
