@@ -8,6 +8,7 @@ import { useLocation } from "react-router-dom"
 import { useEffect } from "react"
 import { TechnologiesSection } from "../sections/TechnologiesSection"
 import Seo from "../components/shared/Seo"
+import { ButtonDownload } from "../components/ButtonDownload"
 
 
 
@@ -41,6 +42,8 @@ export const HomePage = () => {
         <Breaker>{homeSubtitle2}</Breaker>
          
         <Timeline events={studies}/>
+
+        <ButtonDownload/>
         
         <Breaker>{homeSubtitle3}</Breaker>
 

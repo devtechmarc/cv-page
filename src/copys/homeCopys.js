@@ -16,3 +16,5 @@ export const studies = [
     { date: 'Agosto 2021', title: 'Titulación Scrum Master', description: 'Creator of reminiscencefy, currently providing support and incorporating new features to continue growing the platform.' },
     { date: 'Septiembre 2016 - Junio 2018', title: 'Grado superior en desarrollo de aplicaciones multiplataforma', description: 'To gain experience I did several freelance jobs in backend and frontend development.' }
 ];
+
+export const downloadCv = 'Descarga mi CV';

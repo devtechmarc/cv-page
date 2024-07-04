@@ -8,6 +8,7 @@ import { NotFound } from "../components/shared/NotFound";
 import { Text } from "../components/shared/Text";
 import Heading from "../components/shared/Heading";
 import Seo from "../components/shared/Seo";
+import { ButtonDownload } from "../components/ButtonDownload";
 
 export const ProjectPage = () => {
   const { projectId } = useParams();
@@ -44,7 +45,7 @@ export const ProjectPage = () => {
 
               <section className="w-full flex flex-col m-auto gap-10">
                 <Text>{project.description}</Text>
-                <Button className="w-fit m-auto" icon={'cv'}>Descargar mi CV</Button>
+                <ButtonDownload/>
               </section>
 
             </div>
