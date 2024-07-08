@@ -11,7 +11,6 @@ export const TechnologiesSection = () => {
                     key={tech}
                     route={technologiesImgRoute}
                     icon={tech}
-                    format="png"
                     imgClassName="w-[30px] h-[30px]"
                     border
                     btnDark={false}

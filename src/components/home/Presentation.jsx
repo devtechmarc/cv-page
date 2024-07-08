@@ -1,4 +1,4 @@
-import { homeDescription, homeTitle, technologies } from "../../copys/homeCopys"
+import { hobbies, homeDescription, homeTitle } from "../../copys/homeCopys"
 import { Hobby } from "../Hobby"
 import Heading from "../shared/Heading"
 import { Text } from "../shared/Text"
@@ -9,9 +9,9 @@ export const Presentation = () => {
     <div className="w-full flex flex-col justify-end gap-10">
         <Heading variant={'h1'} className={'md:!text-4xl xl:!text-6xl'} textLg={false}>{homeTitle}</Heading>
         <Text>{parse(homeDescription) }</Text>
-        <div className="w-full flex flex-row justify-center gap-x-4">
+        <div className="w-full flex flex-row justify-start gap-x-4 flex-wrap">
             {
-                technologies.map(tech => (
+                hobbies.map(tech => (
                     <Hobby title={tech} key={tech}/>
                 ))
             }

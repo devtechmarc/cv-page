@@ -6,7 +6,7 @@ export const projects = [
         img : '/img/projects/Molistudio-card.png',
         imgFrontPage : '/img/projects/Molistudio-frontpage.png',
         technologies : ['nextjs', 'js'],
-        description : 'Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.',
+        description : 'Realización de la web de la agencia audio visual creativa de "Moli Creative Studio". La web se conforma de 4 secciones principales. La home page: donde se da a conocer la agencia. La parte de servicios: donde se concretan los servicios que ofrecen y como es su froma de trabajar. El portfolio con ejemplos prácticos de trabajos realizados por la agencia (Diseño de aplicaciones, gestión de cuentas, videos, fotos etc) cada una con su propia estructura y forma de mostrarse (consiguiendo así un efecto limpio y eficiente). Y la sección de contacto, la cual habilita un formulario para mandar un correo a la agencia y recibir uno otro por parte de los mismos ',
         url : 'https://www.molicreativestudio.com'
 
     }

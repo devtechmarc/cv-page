@@ -1,7 +1,7 @@
-import { technologiesImgRoute } from "../constants"
+import { hobbiesImgRoute, technologiesImgRoute } from "../constants"
 
-export const Hobby = ({title, width=60, height=60}) => {
+export const Hobby = ({title}) => {
   return (
-    <img alt={title} src={technologiesImgRoute.concat(title).concat('.png')} className="rounded-full hover:scale-110 ease-in-out duration-150" width={width} height={height}/>
+    <img alt={title} src={hobbiesImgRoute.concat(title).concat('.webp')} className="rounded-full object-cover !w-[80px] !h-[80px]"/>
   )
 }
