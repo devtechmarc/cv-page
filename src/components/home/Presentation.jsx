@@ -9,7 +9,7 @@ export const Presentation = () => {
     <div className="w-full flex flex-col justify-end gap-10">
         <Heading variant={'h1'} className={'md:!text-4xl xl:!text-6xl'} textLg={false}>{homeTitle}</Heading>
         <Text>{parse(homeDescription) }</Text>
-        <div className="w-full flex flex-row justify-start gap-x-4 flex-wrap">
+        <div className="w-full flex flex-row justify-start gap-4 flex-wrap">
             {
                 hobbies.map(tech => (
                     <Hobby title={tech} key={tech}/>

@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="flex flex-row gap-8 items-center justify-center">
           <Logo/>
           <a href="https://es.linkedin.com/in/marc-fernández-pérez-7b3495164" target="_blank" rel="noopener noreferrer">
-            <img src={iconsRoute.concat('linkedin.svg')} className="w-10 h-10" alt="Linkedin" />
+            <img src={iconsRoute.concat('linkedin.svg')} className="w-10 h-10" alt="Linkedin" loading="lazy" />
           </a>
         </div>
 

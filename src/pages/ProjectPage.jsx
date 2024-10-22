@@ -37,14 +37,14 @@ export const ProjectPage = () => {
                 </div>
                 <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center md:justify-between gap-y-14">
                   <TechnologiesGroup technologies={project.technologies} />
-                  <a href={project.url} target="_blank" rel="noopener">
+                  <a href={project.url} target="_blank" rel="noopener" className="md:self-start">
                     <Button className="h-fit" icon={'internet'}>Ir a la web</Button>
                   </a>
                 </div>
               </section>
 
               <section className="w-full flex flex-col m-auto gap-10">
-                <Text>{project.description}</Text>
+                <Text className='text-pretty'>{project.description}</Text>
                 <ButtonDownload/>
               </section>
 

@@ -4,7 +4,7 @@ import { sharedImgRoute } from "../../constants"
 export const Logo = ({className = ''}) => {
   return (
     <Link to={'/'}>
-      <img src={`${sharedImgRoute}logo.svg`} alt="Logo"className={`${className}`} aria-label="Logo" />
+      <img src={`${sharedImgRoute}logo.webp`} alt="Logo"className={`w-[100px] h-[100px] ${className}`} aria-label="Logo" />
     </Link>
   )
 }

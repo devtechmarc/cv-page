@@ -51,10 +51,11 @@ export const HomePage = () => {
 
         <h1>TODO SECTION:</h1>
         <ul>
-          <li>PASAR LAS IMG A WEBP</li>
-          <li>TERMINAR LOS TAGS SEO (CON EL COMPONENTE SEO EN LAS PAGES.JSX)</li>
+          <li>PASAR LAS IMG A WEBP en : https://squoosh.app/</li>
+          <li>TERMINAR LOS TAGS SEO (CON EL COMPONENTE SEO EN LAS PAGES.JSX) metiendo keyword y tal personalizadas por proyecto</li>
           <li>METER ANIMACIONES</li>
-          <li>BOTON DE DESCARGAR EL CV</li>
+          <li>METER MI CORREO CORRECTO</li>
+          <li>METER MI CV CORRECTO</li>
           <li>VER SI METER LAS FOTOS EN CLOUDINARY</li>
           <li>BUSCAR EN EL PROYECTO LA PALABRA TODO PARA REVISAR LO QUE QUEDA POR HACER</li>
           <li>revisar los metatags de https://github.com/alexcanDvlpr/alexcantongarcia/blob/main/components/AlexCantonHead.js</li>

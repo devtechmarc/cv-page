@@ -6,7 +6,7 @@ export const Button = ({children = '', className = '', btnDark=true, icon, hover
       title={children}
       onClick={onClickAction} 
       className={`px-5 py-3 rounded-3xl flex flex-row items-center font-bold
-                  ${hoverEffect ? 'hover:scale-110 ease-in-out duration-150' : '' }
+                  ${hoverEffect ? 'hover:scale-110 ease-in-out duration-150' : 'cursor-auto' }
                   ${ btnDark ? 'bg-cv-dark-blue-950-base text-white' : 'bg-white text-black'}
                   ${ border ? 'border-2 border-cv-dark-blue-950-base' : ''}
                   ${ className }`}

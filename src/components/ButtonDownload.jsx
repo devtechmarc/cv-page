@@ -3,7 +3,7 @@ import { downloadCv } from "../copys/homeCopys"
 
 export const ButtonDownload = () => {
   return (
-    <a href={"/pdf/apuntes_grid.pdf"} className="my-16 m-auto" download>
+    <a href={"/pdf/apuntes_grid.pdf"} className="my-10 m-auto" download>
         <Button icon='cv'>
             {downloadCv}
         </Button>
