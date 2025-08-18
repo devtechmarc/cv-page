@@ -2,9 +2,9 @@ import { technologiesImgRoute } from "../constants"
 import { Button } from "./shared/Button"
 import { Text } from "./shared/Text"
 
-export const TechnologiesGroup = ({technologies = []}) => {
+export const TechnologiesGroup = ({technologies = [], className}) => {
   return (
-    <section className="flex flex-col gap-5">
+    <section className={`flex flex-col gap-5 ${className}`}>
         <div className="flex flex-row items-center gap-3">
             <Button className="!p-2 !pe-1 !rounded-xl cursor-auto" icon={'tecnologias'} hoverEffect={false}/>
             <Text className='font-bold text-2xl'>Tecnologías</Text>

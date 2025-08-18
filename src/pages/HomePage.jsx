@@ -15,7 +15,7 @@ import { ButtonDownload } from "../components/ButtonDownload"
 export const HomePage = () => {
 
   const { hash } = useLocation();
-  
+
   useEffect(() => {
     if (hash) {
       const element = document.getElementById(hash.replace('#', ''));
@@ -27,27 +27,32 @@ export const HomePage = () => {
 
   return (
     <CvLayout>
-      <Seo title={'Marc Fernández'} description={'Amante de la programación y el deporte, siempre he estado metido detrás del muro trabajando de Backend developer con Java. Ahora, directo a full stack. Mis 6 años de experiencia me han preparado para adaptarme a las situaciones y peculiaridades de cada proyecto, así como a tirar del hilo en busca de la mejor solución. En cada uno de mis proyectos me he dedicado al desarrollo de evolutivos y correctivos. Así como de hablar con el cliente sobre la opción más viable acorde a lo que necesitaba en cada momento.'} image={'todo'} keywords={'programación, full stack, developer, backend developer, experiencia, proyectos'} url={'todo'} />
-      <div className="w-full flex py-14 gap-7 flex-col">
-        <HeroSection/>
-        
+      <Seo
+        title={'Marc Fernández'}
+        description={'Amante de la programación y el deporte, siempre he estado metido detrás del muro trabajando de Backend developer con Java. Ahora, directo a full stack. Mis 6 años de experiencia me han preparado para adaptarme a las situaciones y peculiaridades de cada proyecto, así como a tirar del hilo en busca de la mejor solución. En cada uno de mis proyectos me he dedicado al desarrollo de evolutivos y correctivos. Así como de hablar con el cliente sobre la opción más viable acorde a lo que necesitaba en cada momento.'}
+        image={'todo'}
+        keywords={'programación, full stack, developer, backend developer, experiencia, proyectos'}
+        url={import.meta.env.DOMAIN} />
+      <div className="w-full flex py-14 gap-7 flex-col container m-auto">
+        <HeroSection />
+
         <Breaker>{homeSubtitle4}</Breaker>
 
-        <TechnologiesSection/>
-        
-        <Breaker>{homeSubtitle}</Breaker>
-          
-        <Timeline events={laboralExperience}/>
-        
-        <Breaker>{homeSubtitle2}</Breaker>
-         
-        <Timeline events={studies}/>
+        <TechnologiesSection />
 
-        <ButtonDownload/>
-        
+        <Breaker>{homeSubtitle}</Breaker>
+
+        <Timeline events={laboralExperience} />
+
+        <Breaker>{homeSubtitle2}</Breaker>
+
+        <Timeline events={studies} />
+
+        <ButtonDownload />
+
         <Breaker>{homeSubtitle3}</Breaker>
 
-        <ProjectsSection/>
+        <ProjectsSection />
 
         <h1>TODO SECTION:</h1>
         <ul>
@@ -56,9 +61,7 @@ export const HomePage = () => {
           <li>METER ANIMACIONES</li>
           <li>METER MI CORREO CORRECTO</li>
           <li>METER MI CV CORRECTO</li>
-          <li>VER SI METER LAS FOTOS EN CLOUDINARY</li>
           <li>BUSCAR EN EL PROYECTO LA PALABRA TODO PARA REVISAR LO QUE QUEDA POR HACER</li>
-          <li>revisar los metatags de https://github.com/alexcanDvlpr/alexcantongarcia/blob/main/components/AlexCantonHead.js</li>
         </ul>
 
       </div>

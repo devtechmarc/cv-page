@@ -8,7 +8,7 @@ export const homeSubtitle4 = '{ Mis aptitudes }';
 
 
 export const hobbies = ['Viajar', 'Gym', 'Programar', 'Lectura', 'Amigos-y-campo', 'Videojuegos']
-export const technologies = ['NextJS', 'React', 'Javascript', 'Tailwind', 'Jquery', 'html', 'css', 'Java', 'Spring', 'Springboot', 'Mysql', 'Oracle',  'Git', 'Github']
+export const technologies = ['NextJS', 'React','Node', 'Express', 'Typescript', 'Javascript', 'Tailwind', 'Jquery', 'html', 'css', 'Java', 'Spring', 'Springboot', 'Mysql', 'Oracle',  'Git', 'Github']
 
 export const laboralExperience = [
     { 

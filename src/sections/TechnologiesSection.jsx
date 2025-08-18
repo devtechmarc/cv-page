@@ -4,7 +4,7 @@ import { technologies } from "../copys/homeCopys"
 
 export const TechnologiesSection = () => {
   return (
-    <section className="w-full container m-auto gap-5 py-10 flex flex-col sm:grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+    <section className="w-full container m-auto gap-5 py-10 flex flex-col sm:grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 px-8">
         {
             technologies.map( tech => 
                 <Button 
