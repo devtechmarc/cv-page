@@ -11,19 +11,21 @@ export const TechnologiesGroup = ({technologies = [], className}) => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5">
             {
-                technologies.map( tech => 
-                    <Button 
-                        key={tech}
-                        route={technologiesImgRoute}
-                        icon={tech}
-                        imgClassName="w-[30px] h-[30px]"
-                        border
-                        btnDark={false}
-                        hoverEffect={false}
-                    >
-                        { tech }
-                    </Button>
-                )
+              technologies.map((tech, idx) => 
+                <Button 
+                  key={tech}
+                  route={technologiesImgRoute}
+                  icon={tech}
+                  imgClassName="w-[30px] h-[30px]"
+                  border
+                  btnDark={false}
+                  hoverEffect={false}
+                  className={`fade-in-up-1000`}
+                  style={{ animationDelay: `${idx * 120}ms` }}
+                >
+                  { tech }
+                </Button>
+              )
             }
         </div>
     </section>

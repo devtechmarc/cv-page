@@ -1,3 +1,6 @@
+import daisyui from "daisyui";
+import tailwindcssAnimate from "tailwindcss-animate";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -43,6 +46,11 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    daisyui,
+    tailwindcssAnimate
+  ],
+  daisyui: {
+    themes: ["light"],
+  },
 }
-

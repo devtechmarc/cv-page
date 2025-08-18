@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: hidden;
+}
 
 
 @font-face {
@@ -21,4 +24,24 @@
 
 .-start-4-and-half{
     inset-inline-start: -1.125rem /* 15px */
+}
+
+
+
+/* tailwindcss animate custom classes by me */
+
+@layer utilities {
+  .fade-in-right-1000 {
+    @apply animate-in fade-in slide-in-from-right duration-1000;
+  }
+  .fade-in-left-1000 {
+    @apply animate-in fade-in slide-in-from-left duration-1000;
+  }
+  .fade-in-up-1000 {
+    @apply animate-in fade-in slide-in-from-bottom duration-1000;
+  }
+
+  .fade-in-down-1000 {
+    @apply animate-in fade-in slide-in-from-top duration-1000;
+  }
 }

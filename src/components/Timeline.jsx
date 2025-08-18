@@ -14,9 +14,9 @@ const TimelineItem = ({ date, title, description, location }) => {
   );
 };
 
-export const Timeline = ({ events }) => {
+export const Timeline = ({ events, className }) => {
   return (
-    <div className="w-full m-auto container pt-8 px-11">
+    <div className={`w-full m-auto container pt-8 px-11 ${className}`}>
       <ol className="relative border-s-4 border-gray-200 xl:m-0 dark:border-gray-700 m-4 ps-2">
         {events.map((event, index) => (
           <TimelineItem
