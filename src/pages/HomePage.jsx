@@ -9,6 +9,7 @@ import { useEffect } from "react"
 import { TechnologiesSection } from "../sections/TechnologiesSection"
 import Seo from "../components/shared/Seo"
 import { ButtonDownload } from "../components/ButtonDownload"
+import { CertificationSection } from "../sections/CertificationSection"
 
 
 
@@ -47,6 +48,10 @@ export const HomePage = () => {
         <Breaker>{homeSubtitle2}</Breaker>
 
         <Timeline events={studies} className={'fade-in-right-1000'} />
+
+        <Breaker>Certificaciones</Breaker>
+
+        <CertificationSection/>
 
         <ButtonDownload />
 

@@ -1,4 +1,4 @@
-const Heading = ({ children, className = "", variant = "h1" }) => {
+const Heading = ({ children, className = "", variant = "h2" }) => {
   const baseClass = {
     h1: "text-3xl md:text-4xl lg:text-5xl font-bold",
     h2: "text-xl xl:text-3xl  font-bold",
