@@ -11,7 +11,7 @@ interface CardProps {
 
 export const CardPortfolio = ({ title, text, tools, url, github }: CardProps) => {
     return (
-        <div className="card w-96 bg-base-200 card-md shadow-sm rounded-2xl">
+        <div className="card w-full bg-base-200 card-md shadow-sm rounded-2xl">
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
                 <p>{text}</p>

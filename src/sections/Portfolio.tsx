@@ -24,14 +24,10 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="proyectos" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto space-y-12">
-        <div className="text-center space-y-4">
-          <Heading variant="h2" underlined className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-tight text-balance">
+    <section id="proyectos" className=" w-full py-20 max-w-4xl mx-auto space-y-12">
+          <Heading variant="h2" underlined>
             Portafolio
           </Heading>
-          <div className="w-24 h-1mx-auto rounded-full" />
-        </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map(({title, description, tech, url, github}) => (
@@ -46,7 +42,6 @@ const Portfolio = () => {
               
           ))}
         </div>
-      </div>
     </section>
   );
 };

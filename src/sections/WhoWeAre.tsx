@@ -3,10 +3,10 @@ import Heading from "../components/Heading"
 
 export const WhoWeAre = () => {
     return (
-        <section className="flex flex-col gap-7">
+        <section className="flex flex-col gap-7 max-w-4xl">
             <Heading variant="h2" underlined>Sobre mí</Heading>
             <Card
-                className="w-full max-w-4xl space-y-12 shadow-md">
+                className="w-full space-y-12 shadow-md">
                 <p>
                     Amante de la programación y el deporte. Full stack con 7 años de experiencia en entornos mutables y de
                     alta concurrencia.
