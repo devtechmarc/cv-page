@@ -6,7 +6,7 @@ export const Contact = () => {
         <section className="flex flex-col gap-7 justify-center items-center mb-16">
             <Heading variant="h2" underlined>Contacto</Heading>
 
-            <p>¿Cual va a ser nuestro próximo proyecto?</p>
+            <p>¿Cuál va a ser nuestro próximo proyecto?</p>
 
             <CVButton />
 

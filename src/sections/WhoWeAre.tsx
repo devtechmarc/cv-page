@@ -3,7 +3,7 @@ import Heading from "../components/Heading"
 
 export const WhoWeAre = () => {
     return (
-        <section className="flex flex-col gap-7 max-w-4xl">
+        <section className="flex flex-col gap-7 w-full max-w-4xl items-center px-4">
             <Heading variant="h2" underlined>Sobre mí</Heading>
             <Card
                 className="w-full space-y-12 shadow-md">
@@ -12,7 +12,7 @@ export const WhoWeAre = () => {
                     alta concurrencia.
                 </p>
                 <p>
-                    Hay una cita de los boyscouts que me gusta mucho y dice asi “Deja el mundo mejor que como lo encontraste”
+                    Hay una cita de los boyscouts que me gusta mucho y dice así “Deja el mundo mejor que como lo encontraste”
                     Y creo que eso se puede aplicar perfectamente al código, facilitando así no solo el funcionamiento del
                     proyecto sino el trabajo futuro.
                 </p>

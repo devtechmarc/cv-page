@@ -14,7 +14,7 @@ interface CardProps {
 
 export const Card = ({ children, header, className }: CardProps) => {
     return (
-        <div className={`card w-96 bg-base-100 card-md shadow-sm ${className && className}`}>
+        <div className={`card w-full bg-base-100 card-md shadow-sm ${className ?? ""}`}>
             <div className="card-body">
                 {
                  header && <Heading variant={header.variant} underlined={header.underlined} className={header.className}>{header.title}</Heading>

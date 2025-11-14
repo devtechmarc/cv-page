@@ -45,17 +45,14 @@ export const Hero = () => {
                 )
                 .pauseFor(1500)
                 .deleteAll()
-                
+
                 .start()
             }}
           />
         </p>
         <div className="w-xl">
           <div className="flex flex-col justify-center items-center gap-4 mt-2">
-            <div className="flex flex-row w-full justify-center gap-4">
-              <a href="#proyectos" className="btn btn-outline btn-primary btn-lg rounded-xl">Ver proyectos</a>
-              <a href="#contacto" className="btn btn-outline btn-ghost btn-lg rounded-xl">Contácto</a>
-            </div>
+            <a href="#proyectos" className="btn btn-outline btn-wide btn-neutral btn-lg rounded-xl">Ver proyectos</a>
             <CVButton />
           </div>
           <div className="flex flex-row justify-center gap-6 mt-4">

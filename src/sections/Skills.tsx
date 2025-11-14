@@ -31,7 +31,7 @@ const Skills = () => {
           <div className="w-24 h-1 bg-gradient-primary mx-auto rounded-full" />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 place-items-center gap-6">
           {skillCategories.map(({skills, title}) => (
             <Card key={title} header={{ variant: "h3", title, underlined : false}}
             >

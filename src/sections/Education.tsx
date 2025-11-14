@@ -43,7 +43,7 @@ const education = {
 
 export const Education = () => {
     return (
-        <section className="flex flex-col gap-7 w-full max-w-4xl">
+        <section className="flex flex-col gap-7 w-full max-w-4xl px-4">
             <Heading variant="h2" className="text-center" underlined>Formación</Heading>
             <div className="space-y-10">
                 <div className="flex flex-col items-center gap-6">

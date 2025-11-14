@@ -24,7 +24,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="proyectos" className=" w-full py-20 max-w-4xl mx-auto space-y-12">
+    <section id="proyectos" className="w-full py-20 max-w-4xl mx-auto space-y-12 px-4">
           <Heading variant="h2" underlined>
             Portafolio
           </Heading>
