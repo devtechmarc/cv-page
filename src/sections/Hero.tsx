@@ -50,7 +50,7 @@ export const Hero = () => {
             }}
           />
         </p>
-        <div className="w-xl">
+        <div className="w-full max-w-xl">
           <div className="flex flex-col justify-center items-center gap-4 mt-2">
             <a href="#proyectos" className="btn btn-outline btn-wide btn-neutral btn-lg rounded-xl">Ver proyectos</a>
             <CVButton />
