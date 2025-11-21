@@ -7,7 +7,7 @@ export const CVButton = () => {
       href={cvUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="btn btn-primary btn-lg btn-wide rounded-xl my-1"
+      className="btn btn-primary btn-lg md:btn-wide rounded-xl my-1"
     >
       Descargar cv
     </a>

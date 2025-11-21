@@ -19,7 +19,7 @@ const Portfolio = () => {
       title: "Contador Personas piscina",
       description: "Web realizada para ver cuantas personas hay en tiempo real en la piscina de una comunidad de vecinos.",
       tech: ["Next.js", "MongoDB", "Node.js", "Tailwind", "TypeScript"],
-      github: "https://github.com",
+      github: "https://github.com/devtechmarc/contador-personas-piscina",
     },
   ];
 
