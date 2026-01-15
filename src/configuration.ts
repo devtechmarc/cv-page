@@ -2,7 +2,7 @@ export const configuration = {
     author : {
         name : 'Marc',
         fullName : 'Marc Fernández',
-        linkedinUrl : 'www.linkedin.com/in/marc-fernández-pérez-7b3495164',
+        linkedinUrl : 'https://www.linkedin.com/in/marcfernandezperez',
         githubUrl: 'https://github.com/devtechmarc'
 
     }
