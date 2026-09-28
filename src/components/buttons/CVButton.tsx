@@ -1,6 +1,6 @@
 
 export const CVButton = () => {
-  const cvUrl = `https://devtechmarc.github.io/cv-page/CV-Marc-3.pdf`
+  const cvUrl = `https://devtechmarc.github.io/cv-page/CV-Marc.pdf`
 
   return (
     <a

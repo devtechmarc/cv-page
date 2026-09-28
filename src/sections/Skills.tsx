@@ -5,19 +5,23 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Frontend",
-      skills: ["React", "TypeScript", "Next.js", "Redux", "Tailwind CSS", "HTML5", "SEO", "JQuery", "CSS"],
+      skills: ["Next.js", "React", "TypeScript", "Tailwind CSS", "SEO"],
     },
     {
       title: "Backend",
-      skills: ["Node.js", "Express", "Java", "Spring", "Springboot", "MongoDB", "Oracle", "MySQL", "REST APIs", "SOAP APIs"],
+      skills: ["Node.js", "Express", "Java", "Spring", "Springboot"],
+    },
+    {
+      title: "Bases de datos",
+      skills: ["MongoDB", "Oracle", "MySQL"],
     },
     {
       title: "DevOps & Tools",
-      skills: ["Git", "Docker", "CI/CD", "Linux"],
+      skills: ["Git", "Docker", "Linux", "AWS"],
     },
     {
       title: "Soft Skills",
-      skills: ["Trabajo en Equipo", "Independencia", "Iniciativa propia", "Asertividad"],
+      skills: ["Trabajo en Equipo", "Independencia", "Iniciativa propia", "Asertividad", "Mejora continua"],
     },
   ];
 
@@ -30,15 +34,16 @@ const Skills = () => {
           </Heading>
         </div>
 
-        <div className="grid md:grid-cols-2 place-items-center gap-6">
+        <div className="grid md:grid-cols-2 items-stretch gap-6">
           {skillCategories.map(({skills, title}) => (
-            <Card key={title} header={{ variant: "h3", title, underlined : false}}
+            <Card
+              key={title}
+              className="h-full"
+              header={{ variant: "h3", title, underlined: false }}
             >
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap content-start gap-2 h-full">
                 {skills.map((skill) => (
-                  <span 
-                    className="badge badge-neutral"
-                  >
+                  <span key={skill} className="badge badge-neutral">
                     {skill}
                   </span>
                 ))}

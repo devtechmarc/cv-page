@@ -34,6 +34,10 @@ const education = {
             enterprise: 'Devtalles'
         },
         {
+            name: 'Docker - Guía práctica de uso para desarrolladores',
+            enterprise: 'Devtalles'
+        },
+        {
             name: 'TypeScript: Tu completa guía y manual de mano',
             enterprise: 'Devtalles'
         },
