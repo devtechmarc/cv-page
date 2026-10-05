@@ -6,8 +6,13 @@ import Heading from "../components/Heading"
 const experience = [
     {
         name: 'Full stack developer',
+        enterprise: 'Influencity',
+        duration: 'Feb 2026 - Aug 2026',
+    },
+    {
+        name: 'Full stack developer',
         enterprise: 'Grupo Onetec',
-        duration: 'Mar 2021 - Actual',
+        duration: 'Mar 2021 - Feb 2026',
     },
     {
         name: 'Backend developer',
@@ -17,7 +22,7 @@ const experience = [
     {
         name: 'SAP Developer (Prácticas)',
         enterprise: 'NTT Data (Everis)',
-        duration: 'Mar 018 - Jun 2018',
+        duration: 'Mar 2018 - Jun 2018',
     },
 ];
 
